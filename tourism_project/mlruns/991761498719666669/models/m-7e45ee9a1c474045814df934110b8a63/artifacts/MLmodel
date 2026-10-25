@@ -1,0 +1,44 @@
+artifact_path: file:///content/tourism_project/mlruns/991761498719666669/models/m-7e45ee9a1c474045814df934110b8a63/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.16
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.0.1
+model_id: m-7e45ee9a1c474045814df934110b8a63
+model_size_bytes: 3400982
+model_uuid: m-7e45ee9a1c474045814df934110b8a63
+prompts: null
+run_id: 8611285b98db426985fdebe4672971f4
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Unnamed: 0", "required": true}, {"type": "double",
+    "name": "Age", "required": true}, {"type": "string", "name": "TypeofContact",
+    "required": true}, {"type": "long", "name": "CityTier", "required": true}, {"type":
+    "string", "name": "Occupation", "required": true}, {"type": "string", "name":
+    "Gender", "required": true}, {"type": "long", "name": "NumberOfPersonVisiting",
+    "required": true}, {"type": "double", "name": "PreferredPropertyStar", "required":
+    true}, {"type": "string", "name": "MaritalStatus", "required": true}, {"type":
+    "double", "name": "NumberOfTrips", "required": true}, {"type": "long", "name":
+    "Passport", "required": true}, {"type": "long", "name": "OwnCar", "required":
+    true}, {"type": "double", "name": "NumberOfChildrenVisiting", "required": true},
+    {"type": "string", "name": "Designation", "required": true}, {"type": "double",
+    "name": "MonthlyIncome", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-25 11:14:06.063965'
