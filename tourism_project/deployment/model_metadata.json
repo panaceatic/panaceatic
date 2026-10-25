@@ -1,0 +1,38 @@
+{
+  "model_type": "RandomForestClassifier",
+  "target": "ProdTaken",
+  "model_file": "best_model.joblib",
+  "mlflow_run_id": "8611285b98db426985fdebe4672971f4",
+  "best_cv_f1": 0.6210660760597645,
+  "feature_columns": [
+    "Unnamed: 0",
+    "Age",
+    "TypeofContact",
+    "CityTier",
+    "Occupation",
+    "Gender",
+    "NumberOfPersonVisiting",
+    "PreferredPropertyStar",
+    "MaritalStatus",
+    "NumberOfTrips",
+    "Passport",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "Designation",
+    "MonthlyIncome"
+  ],
+  "best_params": {
+    "classifier__max_depth": 10,
+    "classifier__min_samples_leaf": 1,
+    "classifier__min_samples_split": 5,
+    "classifier__n_estimators": 100
+  },
+  "metrics": {
+    "accuracy": 0.8559322033898306,
+    "precision": 0.6515151515151515,
+    "recall": 0.5408805031446541,
+    "f1_score": 0.5910652920962199,
+    "roc_auc": 0.8918088125748447,
+    "best_cv_f1": 0.6210660760597645
+  }
+}
