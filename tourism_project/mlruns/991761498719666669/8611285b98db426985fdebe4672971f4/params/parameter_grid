@@ -1,0 +1,1 @@
+{"classifier__n_estimators": [100, 200], "classifier__max_depth": [null, 10], "classifier__min_samples_split": [2, 5], "classifier__min_samples_leaf": [1, 2]}
